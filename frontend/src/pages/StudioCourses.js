@@ -1,17 +1,17 @@
 import UpperBanner from "#components/UpperBanner";
 import {
   coursesPagesNavigationItems,
-  regularCoursePageBeginnerBannerImage,
-  regularCoursePageBeginnerBannerName,
-  regularCoursePageBeginnerBannerSubtitle,
-  regularCoursePageBeginnerBannerText,
-  regularCoursePageIntermediateBannerImage,
-  regularCoursePageIntermediateBannerName,
-  regularCoursePageIntermediateBannerSubtitle,
-  regularCoursePageIntermediateBannerText,
-  StudioCoursesPageUpperSectionBackground,
-  StudioCoursesPageUpperSectionText,
-  StudioCoursesPageUpperSectionTitle,
+  studioCourseCardImageGroup,
+  studioCourseCardImageSolo,
+  studioCourseCardSubtitleGroup,
+  studioCourseCardSubtitleSolo,
+  studioCourseCardTextGroup,
+  studioCourseCardTextSolo,
+  studioCourseCardTitleGroup,
+  studioCourseCardTitleSolo,
+  studioCoursesPageUpperSectionBackground,
+  studioCoursesPageUpperSectionText,
+  studioCoursesPageUpperSectionTitle,
 } from "#utils/constants";
 import { useEffectScrollTop } from "#utils/utils";
 import React from "react";
@@ -32,9 +32,9 @@ const StudioCourses = () => {
     <div className={styles.coursesPageWrapper}>
       <div className={styles.coursesPage}>
         <UpperBanner
-          backgroundUrl={StudioCoursesPageUpperSectionBackground}
-          title={StudioCoursesPageUpperSectionTitle}
-          text={StudioCoursesPageUpperSectionText}
+          backgroundUrl={studioCoursesPageUpperSectionBackground}
+          title={studioCoursesPageUpperSectionTitle}
+          text={studioCoursesPageUpperSectionText}
         />
 
         <OptionsToNavigate
@@ -42,17 +42,17 @@ const StudioCourses = () => {
           items={coursesPagesNavigationItems}
         />
         <CourseBanner
-          imageUrl={regularCoursePageBeginnerBannerImage}
-          name={regularCoursePageBeginnerBannerName}
-          subtitle={regularCoursePageBeginnerBannerSubtitle}
-          text={regularCoursePageBeginnerBannerText}
+          imageUrl={studioCourseCardImageSolo}
+          name={studioCourseCardTitleSolo}
+          subtitle={studioCourseCardSubtitleSolo}
+          text={studioCourseCardTextSolo}
         />
 
         <CourseBanner
-          imageUrl={regularCoursePageIntermediateBannerImage}
-          name={regularCoursePageIntermediateBannerName}
-          subtitle={regularCoursePageIntermediateBannerSubtitle}
-          text={regularCoursePageIntermediateBannerText}
+          imageUrl={studioCourseCardImageGroup}
+          name={studioCourseCardTitleGroup}
+          subtitle={studioCourseCardSubtitleGroup}
+          text={studioCourseCardTextGroup}
           invert={true}
         />
       </div>

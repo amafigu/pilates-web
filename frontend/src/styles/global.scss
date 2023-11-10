@@ -1,5 +1,6 @@
 /* stylelint-disable selector-class-pattern */
 @use "./media" as media;
+@use "./theme" as theme;
 
 .slick-next,
 .slick-prev {
@@ -10,23 +11,23 @@
   display: inline-block;
   width: 8px !important;
   height: 8px !important ;
-  color: white !important;
+  color: theme.$primary-font-color !important;
   content: "" !important;
-  background-color: white;
+  background-color: theme.$primary-font-color;
   border-radius: 50%;
   opacity: 1 !important;
 }
 
 .slick-dots li button:hover::before,
 .slick-dots li button:focus::before {
-  color: #ed068a !important;
-  background-color: #ed068a !important;
+  color: theme.$branding-font-color !important;
+  background-color: theme.$branding-font-color !important;
   opacity: 0.75 !important;
 }
 
 .slick-dots li.slick-active button::before {
-  color: #ed068a !important;
-  background-color: #ed068a !important;
+  color: theme.$branding-font-color !important;
+  background-color: theme.$branding-font-color !important;
   opacity: 1 !important;
 }
 

@@ -2,6 +2,7 @@ import { faBars, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { React, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import IconBranding from "../IconBranding";
 import DropdownMenu from "./DropdownMenu";
 import Menu from "./Menu";
 import styles from "./navbar.module.scss";
@@ -19,19 +20,7 @@ const Navbar = () => {
         onMouseLeave={() => setDropdownOpen(false)}
       >
         <div className={`${styles.column} ${styles.left}`}>
-          <div className={styles.logoContainer}>
-            <Link className={styles.reactLink} to='/'>
-              <img
-                className={styles.logo}
-                src={`${process.env.PUBLIC_URL}/assets/logo.png`}
-                alt='logo'
-              />
-            </Link>
-            <div className={styles.text}>
-              <div className={styles.word}>AMA</div>
-              <div className={styles.word}>PILATES</div>
-            </div>
-          </div>
+          <IconBranding />
           <div
             className={styles.menuIconWrapper}
             onClick={() => setMenuOpen(true)}

@@ -87,13 +87,13 @@ const About = () => {
               <span>Skill should not be harnessed by hard work alone.</span>
             </div>
             <div className={styles.content}>
-              At Tierra y Aire, we believe that passion is the fundamental
-              building block to every student’s success. Through passion comes
+              At AMA, we believe that patience and contansce is the fundamental
+              building block to every body success. Through patience comes
               curiosity, and it is this very curiosity that would spur the
               student to continuously work, and learn, more on his or her craft.
               It is our responsibility, as educators, to fuel that curiosity in
               every student; constantly nurturing, guiding and motivating every
-              student to eventually reach their individual and collective music
+              student to eventually reach their individual and collective
               objectives.
             </div>
           </div>
@@ -123,7 +123,7 @@ const About = () => {
                 <br />
                 <p>
                   At 2010, Gabriele was introduced to Peak Pilates Instruction,
-                  a and course with Katryn Rosh-Nash in Miami, bla bla bla bla.
+                  a and course with Katryn Rosh-Nash in Miami.
                 </p>
                 <div className={styles.socialIcons}>
                   <div className={styles.text}>Follow Gabriele Wieand @</div>

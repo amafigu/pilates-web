@@ -10,7 +10,7 @@ const TestimonialCarousel = () => {
     dots: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 1200000,
+    autoplaySpeed: 10000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -22,9 +22,9 @@ const TestimonialCarousel = () => {
       </div>
       <Slider {...settings}>
         {TESTIMONIALS.map((testimonial, index) => (
-          <div className={styles.textAndImageContainerWrapper} key={index}>
-            <div className={styles.textAndImageContainer}>
-              <div className={styles.leftColumn}>
+          <div className={styles.textContainerWrapper} key={index}>
+            <div className={styles.textContainer}>
+              <div className={styles.context}>
                 <div className={styles.iconContainer}>
                   <FontAwesomeIcon
                     icon={faQuoteLeft}
@@ -36,15 +36,6 @@ const TestimonialCarousel = () => {
                 </div>
                 <div className={styles.testimonialPerson}>
                   <p>{testimonial.person}</p>
-                </div>
-              </div>
-              <div className={styles.rightColumn}>
-                <div className={styles.imageContainer}>
-                  <img
-                    className={styles.image}
-                    src={`${process.env.PUBLIC_URL}/assets/${testimonial.image}`}
-                    alt='Testimonial'
-                  />
                 </div>
               </div>
             </div>

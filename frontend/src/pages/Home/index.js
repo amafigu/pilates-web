@@ -12,14 +12,29 @@ const Home = () => {
         <VideoBanner />
         <section className={styles.cardsSection}>
           <div className={styles.presentation}>
-            <p className={styles.title}>Tierra y Aire </p>
-            <p className={styles.subtitle}>
-              Rosario's largest specialized drum school since 2018
-            </p>
+            <p className={styles.title}>Gabriele Wieand </p>
+            <p className={styles.subtitle}>Classical Pilates Instructor</p>
             <p className={styles.missionText}>
-              Our mission is to inspire and educate drummers by using the latest
-              technology and resources in providing a distinctive contemporary
-              drum education.
+              I am a classical pilates instructor, certified by{" "}
+              <a
+                className={styles.link}
+                href='https://peakpilates.eu/de'
+                target='_blank'
+              >
+                Peak Pilates &#174;
+              </a>
+              . I have been teaching pilates for over 10 years and I am
+              thankfull about helping people to improve their health and
+              well-being or athletes to reach their goals through pilates. I am
+              currently teaching online and in{" "}
+              <a
+                className={styles.link}
+                href='https://makeda-pilates.de/'
+                target='_blank'
+              >
+                Makeda Pilates &#174;
+              </a>{" "}
+              - Berlin.
             </p>
           </div>
           <div className={styles.cardTeaserContainer}>

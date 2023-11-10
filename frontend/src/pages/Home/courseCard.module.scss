@@ -74,6 +74,10 @@
     line-height: 128%;
   }
 
+  .externalLink {
+    color: theme.$branding-font-color;
+  }
+
   .link {
     display: flex;
     align-items: center;

@@ -2,6 +2,7 @@ import UpperBanner from "#components/UpperBanner";
 import {
   coursesPagesNavigationItems,
   onlineCourseCardImageGroup,
+  onlineCourseCardImageSolo,
   onlineCourseCardSubtitleGroup,
   onlineCourseCardSubtitleSolo,
   onlineCourseCardTextGroup,
@@ -11,7 +12,6 @@ import {
   onlineCoursesPageUpperSectionBackground,
   onlineCoursesPageUpperSectionText,
   onlineCoursesPageUpperSectionTitle,
-  shortCoursePageHolidayImage,
 } from "#utils/constants";
 import { useEffectScrollTop } from "#utils/utils";
 import React from "react";
@@ -41,7 +41,7 @@ const OnlineCourses = () => {
           items={coursesPagesNavigationItems}
         />
         <CourseBanner
-          imageUrl={shortCoursePageHolidayImage}
+          imageUrl={onlineCourseCardImageSolo}
           name={onlineCourseCardTitleSolo}
           subtitle={onlineCourseCardSubtitleSolo}
           text={onlineCourseCardTextSolo}

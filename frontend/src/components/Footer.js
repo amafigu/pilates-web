@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import IconBranding from "./IconBranding";
 import styles from "./footer.module.scss";
 
 const Footer = () => {
@@ -8,21 +9,18 @@ const Footer = () => {
       <div className={styles.footer}>
         <div className={styles.columnsContainer}>
           <div className={`${styles.column} ${styles.logoColumn}`}>
-            <div className={styles.logoContainer}>
-              <img
-                className={styles.logo}
-                src={`${process.env.PUBLIC_URL}/assets/logo.png`}
-                alt='logo'
-              />
-              <div className={styles.text}>
-                <div className={styles.word}>TIERRA</div>
-                <div className={styles.word}>Y AIRE</div>
-              </div>
-            </div>
+            <IconBranding />
 
             <div className={styles.teaserText}>
-              Established since 2018, Tierra Y Aire is the people’s choice for
-              drum education in Rosario.
+              Pilates Teacher since 2012, Gabriele Wieand is certicated{" "}
+              <a
+                className={styles.link}
+                href='https://peakpilates.eu/de'
+                target='_blank'
+              >
+                Peak Pilates &#174;
+              </a>{" "}
+              trainer in Berlin.
             </div>
           </div>
           <div className={styles.column}>

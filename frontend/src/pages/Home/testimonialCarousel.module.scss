@@ -3,6 +3,14 @@
 @import "#styles/helpers/mixins";
 
 .testimonialCarouselWrapper {
+  width: 100%;
+  min-width: 100px;
+  height: fit-content;
+  min-height: 100px;
+  padding: 60px;
+  text-align: center;
+  background: theme.$light-background-color;
+
   @include media.tablet-wide {
     height: auto;
     padding: 60px 0 0;
@@ -13,14 +21,13 @@
     padding: 0;
   }
 
-  width: 100%;
-  min-width: 100px;
-  height: fit-content;
-  min-height: 100px;
-  padding: 60px;
-  background: theme.$secondary-background-color;
-
   .title {
+    width: 100%;
+    color: theme.$primary-font-color;
+    text-align: center;
+    user-select: none;
+    -webkit-text-select: none;
+
     @include media.mobile {
       @include flex-all-center;
 
@@ -28,24 +35,19 @@
     }
 
     @include standard-page-title;
-
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    user-select: none;
-    -webkit-text-select: none;
   }
 
-  .textAndImageContainerWrapper {
+  .textContainerWrapper {
+    display: flex;
+    width: 40% !important;
+    margin: 60px 0 40px;
+
     @include media.mobile {
       margin: 0;
     }
-
-    display: flex;
-    margin: 60px 0 40px;
   }
 
-  .textAndImageContainer {
+  .textContainer {
     @include media.tablet-wide {
       width: 90%;
       margin: auto;
@@ -83,7 +85,7 @@
     -webkit-text-select: none;
   }
 
-  .leftColumn {
+  .content {
     @include media.tablet-wide {
       width: 50%;
       margin-right: 40px;
@@ -100,17 +102,6 @@
     width: 462px;
     height: fit-content;
     margin-right: 120px;
-  }
-
-  .rightColumn {
-    @include media.mobile {
-      order: 1;
-      width: theme.$mobile-default-page-width;
-      margin-right: 0;
-      margin-bottom: 46px;
-    }
-
-    pointer-events: none;
   }
 
   .text {
@@ -148,28 +139,5 @@
 
   .customIcon {
     color: theme.$branding-font-color;
-  }
-
-  .itemsSelectorContainer {
-    display: flex;
-    gap: 20px;
-    justify-content: flex-start;
-    width: 100%;
-  }
-
-  .selector {
-    width: 16px;
-    height: 16px;
-    cursor: pointer;
-    border-radius: 50%;
-
-    &:hover {
-      color: theme.$branding-font-color;
-      background-color: theme.$branding-font-color;
-    }
-  }
-
-  .transitionEffect {
-    transition: transform 0.3s ease-in-out;
   }
 }

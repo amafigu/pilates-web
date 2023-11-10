@@ -61,18 +61,16 @@
         }
 
         .icons {
+          display: flex;
+
           @include media.mobile {
-            gap: 30px;
             width: fit-content;
             margin: auto;
           }
-
-          display: flex;
-          gap: 40px;
-          justify-content: space-around;
         }
 
         .customIcon {
+          margin-right: 16px;
           color: theme.$branding-font-color;
         }
 
@@ -108,11 +106,16 @@
         }
 
         .teaserText {
+          margin-top: 16px;
+          color: #a8a8a8;
+
           @include media.desktop-up {
             max-width: 160px;
           }
 
-          color: #a8a8a8;
+          .link {
+            color: theme.$branding-font-color;
+          }
         }
 
         .logoContainer {
@@ -138,48 +141,6 @@
               font-weight: 700;
             }
           }
-        }
-      }
-    }
-
-    .copyright {
-      flex-direction: column;
-      justify-content: center;
-      width: 100%;
-      height: auto;
-      padding: 0 24px;
-      margin: 40px 0 80px;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 20.3px;
-      color: #606060;
-      text-align: center;
-
-      .textCopyright {
-        margin-bottom: 40px;
-
-        @include media.widescreen {
-          margin-bottom: 40px;
-        }
-      }
-
-      .links {
-        @include media.tablet-wide {
-          margin-bottom: 32px;
-        }
-      }
-
-      .linkLegal {
-        &:hover {
-          color: theme.$branding-font-color !important;
-          cursor: pointer;
-        }
-      }
-
-      .columns {
-        @include media.mobile {
-          margin-top: 20px;
         }
       }
     }
