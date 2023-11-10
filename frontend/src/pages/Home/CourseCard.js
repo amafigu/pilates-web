@@ -32,6 +32,7 @@ const CourseCard = ({
                     className={styles.externalLink}
                     href={externalLink}
                     target='_blank'
+                    rel='noreferrer'
                   >
                     {linkText}
                   </a>{" "}

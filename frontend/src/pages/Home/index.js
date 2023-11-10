@@ -20,6 +20,7 @@ const Home = () => {
                 className={styles.link}
                 href='https://peakpilates.eu/de'
                 target='_blank'
+                rel='noreferrer'
               >
                 Peak Pilates &#174;
               </a>
@@ -31,6 +32,7 @@ const Home = () => {
                 className={styles.link}
                 href='https://makeda-pilates.de/'
                 target='_blank'
+                rel='noreferrer'
               >
                 Makeda Pilates &#174;
               </a>{" "}
