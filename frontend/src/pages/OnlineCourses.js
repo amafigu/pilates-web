@@ -1,17 +1,17 @@
 import UpperBanner from "#components/UpperBanner";
 import {
   coursesPagesNavigationItems,
+  onlineCourseCardImageGroup,
+  onlineCourseCardSubtitleGroup,
+  onlineCourseCardSubtitleSolo,
+  onlineCourseCardTextGroup,
+  onlineCourseCardTextSolo,
+  onlineCourseCardTitleGroup,
+  onlineCourseCardTitleSolo,
   onlineCoursesPageUpperSectionBackground,
   onlineCoursesPageUpperSectionText,
   onlineCoursesPageUpperSectionTitle,
   shortCoursePageHolidayImage,
-  shortCoursePageHolidayName,
-  shortCoursePageHolidaySubtitle,
-  shortCoursePageHolidayText,
-  shortCoursePageIntroDrummingImage,
-  shortCoursePageIntroDrummingName,
-  shortCoursePageIntroDrummingSubtitle,
-  shortCoursePageIntroDrummingText,
 } from "#utils/constants";
 import { useEffectScrollTop } from "#utils/utils";
 import React from "react";
@@ -42,15 +42,15 @@ const OnlineCourses = () => {
         />
         <CourseBanner
           imageUrl={shortCoursePageHolidayImage}
-          name={shortCoursePageHolidayName}
-          subtitle={shortCoursePageHolidaySubtitle}
-          text={shortCoursePageHolidayText}
+          name={onlineCourseCardTitleSolo}
+          subtitle={onlineCourseCardSubtitleSolo}
+          text={onlineCourseCardTextSolo}
         />
         <CourseBanner
-          imageUrl={shortCoursePageIntroDrummingImage}
-          name={shortCoursePageIntroDrummingName}
-          subtitle={shortCoursePageIntroDrummingSubtitle}
-          text={shortCoursePageIntroDrummingText}
+          imageUrl={onlineCourseCardImageGroup}
+          name={onlineCourseCardTitleGroup}
+          subtitle={onlineCourseCardSubtitleGroup}
+          text={onlineCourseCardTextGroup}
           invert={true}
         />
       </div>

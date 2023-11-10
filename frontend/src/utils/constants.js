@@ -87,26 +87,20 @@ export const regularCoursePageAdvancedBannerSubtitle = "Coordination & Control";
 export const regularCoursePageAdvancedBannerText =
   "Every experienced drummer needs more techniques. The student will begin to attain control over the drum set by exploring";
 
-export const shortCoursePageHolidayImage = `${process.env.PUBLIC_URL}/assets/short_courses_page_holiday.png`;
+export const shortCoursePageHolidayImage = `${process.env.PUBLIC_URL}/assets/short_courses_page_holiday.jpg`;
 
-export const shortCoursePageHolidayName = "Holiday Programme";
-export const shortCoursePageHolidaySubtitle =
-  "The School Holidays are round the corner!";
-export const shortCoursePageHolidayText =
-  "Every young drummer needs proper development and control techniques";
+export const onlineCourseCardTitleSolo = "Solo Lessons";
+export const onlineCourseCardSubtitleSolo =
+  "The solo lessons is adapted for you, with specific goals that we will define together. The classes are solo or in groups";
+export const onlineCourseCardTextSolo =
+  "Support for intensive development and control techniques";
 
-export const shortCoursePageIntroDrummingImage = `${process.env.PUBLIC_URL}/assets/short_courses_page_intro_drumming.png`;
+export const onlineCourseCardImageGroup = `${process.env.PUBLIC_URL}/assets/short_courses_page_intro_drumming.jpg`;
 
-export const shortCoursePageIntroDrummingName = "Introduction to Drumming";
-export const shortCoursePageIntroDrummingSubtitle =
-  "We have developed ‘Intro to Drumming’ for adults and students who have a limited time but want to get the most out of it.";
-export const shortCoursePageIntroDrummingText =
-  "In 4 lessons, students with little or no drumming experience will be rapidly introduced to the drum kit.Intro to Drumming is extremely beneficial for adults who are new beginners to drumming, and who are looking for a quick “crash course” introduction to the instrument.This course is also a great option for students to have-a-go at the instrument for 4 lessons before committing to a regular weekly slot.The Educator and student will plan 4 lessons at any time during a 1 month period (or 8 lessons within 2 months), subject to availability. Lessons can be more than once a week, and no student deposit is required. Students are allowed to take this short course more than once.";
+export const onlineCourseCardTitleGroup = "Group Lessons";
+export const onlineCourseCardSubtitleGroup =
+  "We have developed ‘eye’ for our customers who have a limited time but want to get the most out of it.";
+export const onlineCourseCardTextGroup =
+  "In the lessons we see the limitations of all the persons in the group and make a session that is beneficial for everyone.";
 
 export const corporateCoursePageOfferImage = `${process.env.PUBLIC_URL}/assets/corporate_courses_offer.png`;
-
-export const corporateCoursePageOfferName = "Overview";
-export const corporateCoursePageOfferSubtitle =
-  "Are you looking for a unique and effective way to bring your team together and improve communication and teamwork? ";
-export const corporateCoursePageOfferText =
-  "Our experienced instructors are committed to providing your team with a positive and engaging experience that will leave them eager for more. We’ve worked with numerous organizations and over 5,000 students, making us well-versed in adapting to cultural, racial, and language differences.  Through the power of drumming, we can help bring your team together and provide a professional development opportunity unlike any other. Don’t miss out on this chance to boost team morale and productivity. Contact us today to book your workshop!";

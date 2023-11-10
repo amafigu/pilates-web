@@ -8,21 +8,15 @@ const CoursesCardTeaser = () => {
       <div className={styles.coursesCardTeaser}>
         <CourseCard
           image='card1.png'
-          name='Regular'
-          path='/courses/regular'
-          description='The Regular Programme is designed for students with medium to long-term goals in mastering the instrument through one-on-one weekly drum lessons.'
+          name='Studio Courses'
+          path='/courses/studio'
+          description='Lessons are given in Makeda Pilates, Berlin, Prenzlauer Berg. The classes are solo or in groups from 2 until 5 persons.'
         />
         <CourseCard
           image='card2.png'
-          name='Short Courses '
-          path='/courses/short'
-          description='The Short Course is for students with specific goals and limited time. These courses are crafted to help you get started on learning the basic concepts to drumming.'
-        />
-        <CourseCard
-          image='card3.jpg'
-          name='Corporate '
-          path='/courses/corporate'
-          description='We incorporate drumming into team building programmes that allow our participants to experience the fun and unity through music and drums.'
+          name='Online Courses '
+          path='/courses/online'
+          description='The solo lessons is adapted for you, with specific goals that we will define together. The classes are solo or in groups'
         />
       </div>
     </div>

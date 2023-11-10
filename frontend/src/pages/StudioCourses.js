@@ -1,10 +1,6 @@
 import UpperBanner from "#components/UpperBanner";
 import {
   coursesPagesNavigationItems,
-  regularCoursePageAdvancedBannerImage,
-  regularCoursePageAdvancedBannerName,
-  regularCoursePageAdvancedBannerSubtitle,
-  regularCoursePageAdvancedBannerText,
   regularCoursePageBeginnerBannerImage,
   regularCoursePageBeginnerBannerName,
   regularCoursePageBeginnerBannerSubtitle,
@@ -58,13 +54,6 @@ const StudioCourses = () => {
           subtitle={regularCoursePageIntermediateBannerSubtitle}
           text={regularCoursePageIntermediateBannerText}
           invert={true}
-        />
-
-        <CourseBanner
-          imageUrl={regularCoursePageAdvancedBannerImage}
-          name={regularCoursePageAdvancedBannerName}
-          subtitle={regularCoursePageAdvancedBannerSubtitle}
-          text={regularCoursePageAdvancedBannerText}
         />
       </div>
     </div>
