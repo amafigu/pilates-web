@@ -1,0 +1,84 @@
+@use "#styles/theme" as theme;
+@use "#styles/media" as media;
+@import "#styles/helpers/mixins";
+
+.homePageWrapper {
+  align-items: center;
+
+  @include flex-horizontal-center;
+
+  .homePage {
+    @include flex-horizontal-center;
+
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cardsSection {
+    background-color: theme.$primary-background-color;
+
+    .cardTeaserContainer {
+      margin-bottom: 60px;
+      background-color: theme.$primary-background-color;
+    }
+  }
+
+  .link {
+    color: theme.$branding-font-color;
+  }
+
+  .presentation {
+    width: 38%;
+    margin: auto;
+    text-align: center;
+    background-color: theme.$primary-background-color;
+
+    @include media.tablet-wide {
+      width: 100%;
+    }
+
+    .title {
+      margin: 60px 0;
+      font-size: 22px;
+      font-weight: 600;
+      color: theme.$branding-font-color;
+
+      @include media.mobile {
+        margin: 40px 0 20px;
+      }
+
+      @include media.tablet-wide {
+        margin: 32px 0 16px;
+      }
+    }
+
+    .subtitle {
+      font-size: 42px;
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: 0;
+
+      @include media.tablet-wide {
+        padding: 0 20px;
+        font-size: 24px;
+        line-height: 1.4;
+        letter-spacing: 0;
+      }
+    }
+
+    .missionText {
+      margin: 60px 0;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.85;
+      color: theme.$primary-font-color;
+
+      @include media.tablet-wide {
+        padding: 0 20px;
+        margin: 32px 0 40px;
+        font-size: 16px;
+        line-height: 1.45;
+      }
+    }
+  }
+}

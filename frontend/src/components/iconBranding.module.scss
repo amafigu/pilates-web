@@ -1,0 +1,36 @@
+@use "#styles/theme" as theme;
+@use "#styles/media" as media;
+@import "#styles/helpers/mixins";
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+
+  .text {
+    line-height: 128%;
+    opacity: 0.9;
+    transform: scale(1, 1.1);
+  }
+
+  .reactLink {
+    margin-right: 18px;
+
+    @include media.mobile {
+      margin-right: 12px;
+    }
+
+    @include flex-vertical-center;
+  }
+
+  .logo {
+    @include media.mobile {
+      width: 70px;
+      height: 70px;
+    }
+
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+}

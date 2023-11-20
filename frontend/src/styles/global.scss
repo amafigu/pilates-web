@@ -1,0 +1,42 @@
+/* stylelint-disable selector-class-pattern */
+@use "./media" as media;
+@use "./theme" as theme;
+
+.slick-next,
+.slick-prev {
+  display: none !important;
+}
+
+.slick-dots li button::before {
+  display: inline-block;
+  width: 8px !important;
+  height: 8px !important ;
+  color: theme.$primary-font-color !important;
+  content: "" !important;
+  background-color: theme.$primary-font-color;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+.slick-dots li button:hover::before,
+.slick-dots li button:focus::before {
+  color: theme.$branding-font-color !important;
+  background-color: theme.$branding-font-color !important;
+  opacity: 0.75 !important;
+}
+
+.slick-dots li.slick-active button::before {
+  color: theme.$branding-font-color !important;
+  background-color: theme.$branding-font-color !important;
+  opacity: 1 !important;
+}
+
+.slick-slider {
+  margin-bottom: 60px !important;
+}
+
+.slick-list {
+  @include media.mobile {
+    margin: 0 0 120px !important;
+  }
+}
