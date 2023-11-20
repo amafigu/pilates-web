@@ -12,7 +12,7 @@ const Footer = () => {
             <IconBranding />
 
             <div className={styles.teaserText}>
-              Pilates Teacher since 2012, Gabriele Wieand is certicated{" "}
+              Pilates Teacher since 2012, Instructor Instructoe is certicated{" "}
               <a
                 className={styles.link}
                 href='https://peakpilates.eu/de'
@@ -43,18 +43,12 @@ const Footer = () => {
           <div className={`${styles.column} ${styles.socialColumn}`}>
             <h3 className={styles.title}>Social Links</h3>
             <div className={styles.icons}>
-              <a
-                href='https://www.instagram.com/gabriele_pilates_berlin/'
-                target='_blanck'
-              >
+              <a href='https://www.instagram.com/' target='_blanck'>
                 <i
                   className={`fab fa-instagram fa-2x ${styles.customIcon}`}
                 ></i>
               </a>
-              <a
-                href='https://www.facebook.com/profile.php?id=100049980236028'
-                target='_blanck'
-              >
+              <a href='https://www.facebook.com/' target='_blanck'>
                 <i
                   className={`fab fa-facebook-f fa-2x ${styles.customIcon}`}
                 ></i>

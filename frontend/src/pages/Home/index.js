@@ -12,7 +12,7 @@ const Home = () => {
         <VideoBanner />
         <section className={styles.cardsSection}>
           <div className={styles.presentation}>
-            <p className={styles.title}>Gabriele Wieand </p>
+            <p className={styles.title}>Instructor Instructoe </p>
             <p className={styles.subtitle}>Classical Pilates Instructor</p>
             <p className={styles.missionText}>
               I am a classical pilates instructor, certified by{" "}
@@ -30,11 +30,11 @@ const Home = () => {
               currently teaching online and in{" "}
               <a
                 className={styles.link}
-                href='https://makeda-pilates.de/'
+                href='https://somewhere-pilates.de/'
                 target='_blank'
                 rel='noreferrer'
               >
-                Makeda Pilates &#174;
+                Somewhere Pilates &#174;
               </a>{" "}
               - Berlin.
             </p>

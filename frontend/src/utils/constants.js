@@ -8,12 +8,12 @@ export const TESTIMONIALS = [
     image: "testimonial1.png",
   },
   {
-    text: "The lessons at AMA Pilates are well structured for progression in body movement learning. There is also an emphasis on applying what I have learnt into the classes, and it keeps the learning practical and enjoyable! Thanks goes to my educator, Gabriele, who is always very encouraging and motivates me to keep improving.",
+    text: "The lessons at SOME Pilates are well structured for progression in body movement learning. There is also an emphasis on applying what I have learnt into the classes, and it keeps the learning practical and enjoyable! Thanks goes to my educator, Instructor, who is always very encouraging and motivates me to keep improving.",
     person: "Alumn@ 2",
     image: "testimonial2.png",
   },
   {
-    text: "Eion has been with AMA for around 9 year. Personally, I feel that AMA provides a conducive and supportive place for atlethes or persons with physical illnes to get really stronger. The pace of lesson matches the ability of the student, which I feel is critical for student engagement. Feedback for learning is prompt and targeted.",
+    text: "Eion has been with SOME for around 9 year. Personally, I feel that SOME provides a conducive and supportive place for atlethes or persons with physical illnes to get really stronger. The pace of lesson matches the ability of the student, which I feel is critical for student engagement. Feedback for learning is prompt and targeted.",
     person: "Alumn@ 3",
     image: "testimonial3.png",
   },
@@ -42,13 +42,13 @@ export const corporateCoursesPageUpperSectionBackground = {
 
 // TEXT TO PLACE IN I18N
 
-export const aboutPageUpperSectionTitle = "About AMA Pilates";
+export const aboutPageUpperSectionTitle = "About SOME Pilates";
 export const aboutPageUpperSectionText =
-  " Teaching since 2016, the Gabriele Wieand ethos has always been one of integration and sharing. AMA pilates is a excelent choice for body movement education as one of the largest specialized pilates instructors in Berlin.";
+  " Teaching since 2016, the Instructor Instructoe ethos has always been one of integration and sharing. SOME pilates is a excelent choice for body movement education as one of the largest specialized pilates instructors in Berlin.";
 
 export const studioCoursesPageUpperSectionTitle = "Studio Courses";
 export const StudioCoursesPageUpperSectionText =
-  "The Studio Courses are designed for students with long-term goals in mastering the pilates art through one-on-one or grupal lessons in Makeda studio / Berlin Prenzlauer Berg.";
+  "The Studio Courses are designed for students with long-term goals in mastering the pilates art through one-on-one or grupal lessons in Somewhere studio / Berlin Prenzlauer Berg.";
 
 export const onlineCoursesPageUpperSectionTitle = "Online Courses";
 export const onlineCoursesPageUpperSectionText =

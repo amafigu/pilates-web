@@ -11,8 +11,8 @@ const CoursesCardTeaser = () => {
           name='Studio Courses'
           path='/courses/studio'
           description='Lessons are given in '
-          externalLink='https://makeda-pilates.de/'
-          linkText='Makeda Pilates &#174;'
+          externalLink='https://somewhere-pilates.de/'
+          linkText='Somewhere Pilates &#174;'
           descriptionAfterLink=' , Berlin, Prenzlauer Berg. The classes are solo or in groups from 2 until 5 persons.'
         />
         <CourseCard

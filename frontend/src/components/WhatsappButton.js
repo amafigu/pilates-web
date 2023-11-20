@@ -4,7 +4,7 @@ import styles from "./whatsappButton.module.scss";
 const WhatsAppButton = () => {
   return (
     <a
-      href='https://api.whatsapp.com/send?phone=491708921132'
+      href='https://api.whatsapp.com/send?phone='
       target='_blank'
       role='button'
       rel='noreferrer'

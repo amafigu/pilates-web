@@ -53,7 +53,7 @@ const Navbar = () => {
           </div>
 
           <a
-            href='mailto:percusion.tierrayaire@gmail.com'
+            href='mailto:some@gmail.com'
             className={`${styles.mailButton} ${styles.hideForMobile}`}
           >
             <span>Contact Us</span>

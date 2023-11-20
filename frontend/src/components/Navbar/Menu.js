@@ -61,7 +61,7 @@ const Menu = ({ setMenu }) => {
         </ul>
         <a
           onClick={() => setMenu(false)}
-          href='mailto:percusion.tierrayaire@gmail.com'
+          href='some@gmail.com'
           className={styles.mailButton}
         >
           Contact Us

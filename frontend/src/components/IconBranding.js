@@ -13,7 +13,7 @@ const IconBranding = () => {
         />
       </Link>
       <div className={styles.text}>
-        <div className={styles.word}>AMA</div>
+        <div className={styles.word}>SOME</div>
         <div className={styles.word}>PILATES</div>
       </div>
     </div>

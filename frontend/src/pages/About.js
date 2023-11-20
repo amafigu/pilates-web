@@ -62,7 +62,7 @@ const About = () => {
             <div className={styles.paragraphsContainer}>
               <div className={styles.paragraphs}>
                 <p>
-                  At AMA, we believe that the heartbeat of health begins with
+                  At SOME, we believe that the heartbeat of health begins with
                   inspiration. Our programmes are created with creativity,
                   innovation, originality and classical pilates. We ensure the
                   right balance for your specific needs at every fitness level.
@@ -87,7 +87,7 @@ const About = () => {
               <span>Skill should not be harnessed by hard work alone.</span>
             </div>
             <div className={styles.content}>
-              At AMA, we believe that patience and contansce is the fundamental
+              At SOME, we believe that patience and contansce is the fundamental
               building block to every body success. Through patience comes
               curiosity, and it is this very curiosity that would spur the
               student to continuously work, and learn, more on his or her craft.
@@ -110,35 +110,34 @@ const About = () => {
             </div>
             <div className={styles.textAndIconsContainer}>
               <div className={styles.textAndIcons}>
-                <div className={styles.name}>Gabriele Wieand</div>
+                <div className={styles.name}>Instructor name</div>
                 <div className={styles.position}>
                   Classical Pilates Instructor
                 </div>
                 <p>
-                  The depth of Gabriele's sport life begins from his early age.
-                  Gabriele discovered her love for horses at a tender age by
-                  experimenting with western competitions such as Passauer and
-                  and and and
+                  The depth of Instructor's sport life begins from his early
+                  age. Instructor discovered her love for horses at a tender age
+                  by experimenting with western competitions such as Passauer
+                  and and and and
                 </p>
                 <br />
                 <p>
-                  At 2010, Gabriele was introduced to Peak Pilates Instruction,
-                  a and course with Katryn Rosh-Nash in Miami.
+                  At 2010, Instructor was introduced to Peak Pilates
+                  Instruction, a and course with Katryn Rosh-Nash in Miami.
                 </p>
                 <div className={styles.socialIcons}>
-                  <div className={styles.text}>Follow Gabriele Wieand @</div>
+                  <div className={styles.text}>
+                    Follow Instructor Instructoe @
+                  </div>
                   <div className={styles.row}>
                     <div className={styles.icons}>
-                      <a
-                        href='https://www.instagram.com/gabriele_pilates_berlin/'
-                        target='_blanck'
-                      >
+                      <a href='https://www.instagram.com/' target='_blanck'>
                         <i
                           className={`fab fa-instagram fa-2x ${styles.customIcon}`}
                         ></i>
                       </a>
                       <a
-                        href='https://www.facebook.com/profile.php?id=100049980236028'
+                        href='https://www.facebook.com/profile.php?'
                         target='_blanck'
                       >
                         <i
